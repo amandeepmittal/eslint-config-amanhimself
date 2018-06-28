@@ -1,10 +1,10 @@
 {
 	"name": "eslint-config-amanhimself",
-	"version": "0.0.1",
-	"description": "ESLint config for React Native",
+	"version": "0.1.0",
+	"description": "ESLint config for React Native and Expo apps.",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node tests/test.js"
 	},
 	"engines": {
 		"node": ">=4.0.0"
@@ -12,11 +12,8 @@
 	"keywords": [
 		"eslint",
 		"eslint-config",
-		"eslint-es6",
-		"eslint-es7",
 		"eslint-react",
-		"eslint-airbnb",
-		"eslint-decorator",
+		"eslint-universe",
 		"react-native eslint",
 		"react eslint"
 	],
@@ -32,5 +29,9 @@
 		"eslint-plugin-import": "^2.13.0",
 		"eslint-plugin-jsx-a11y": "^6.0.3",
 		"eslint-plugin-react": "^7.10.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/amandeepmittal/eslint-config-amanhimself"
 	}
 }
