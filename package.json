@@ -1,0 +1,36 @@
+{
+	"name": "eslint-config-amanhimself",
+	"version": "0.0.1",
+	"description": "ESLint config for React Native",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslint-es6",
+		"eslint-es7",
+		"eslint-react",
+		"eslint-airbnb",
+		"eslint-decorator",
+		"react-native eslint",
+		"react eslint"
+	],
+	"author": "Aman Mittal <amandeepmittal@live.com> (www.amanhimself.me)",
+	"license": "MIT",
+	"peerDependencies": {
+		"eslint": ">=5.0.0"
+	},
+	"dependencies": {
+		"babel-eslint": "^8.2.5",
+		"eslint": "^5.0.1",
+		"eslint-plugin-class-property": "^1.1.0",
+		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-react": "^7.10.0"
+	}
+}
