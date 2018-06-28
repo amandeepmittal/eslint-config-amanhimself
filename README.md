@@ -1,5 +1,12 @@
 # eslint-config-amanhimself
 
+[![Travis](https://img.shields.io/travis/amandeepmittal/eslint-config-amanhimself.svg)](https://github.com/amandeepmittal/eslint-config-amanhimself)
+[![npm](https://img.shields.io/npm/dt/eslint-config-amanhimself.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-amanhimself)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/amandeepmittal/eslint-config-amanhimself)
+![code style expo](https://img.shields.io/badge/code%20style-expo-blue.svg)
+![code style react-native](https://img.shields.io/badge/code%20style-react%20native-ff69b4.svg)
+[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/amanhimself)
+
 Shared ESLint configs React Native, and Expo projects. ⚛️ + 📱
 
 ## Installation
