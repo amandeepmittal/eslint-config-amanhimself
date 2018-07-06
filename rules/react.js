@@ -5,7 +5,7 @@ module.exports = {
 	rules: {
 		// Specify whether double or single quotes should be used in JSX attributes
 		// http://eslint.org/docs/rules/jsx-quotes
-		'jsx-quotes': ['error', 'single', { avoidEscape: true }],
+		// 'jsx-quotes': ['error', 'single', { avoidEscape: true }],
 
 		// 'class-methods-use-this': ['error', {
 		//   exceptMethods: [
