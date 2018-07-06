@@ -10,7 +10,7 @@ module.exports = {
 	rules: {
 		// enforces no braces where they can be omitted
 		// http://eslint.org/docs/rules/arrow-body-style
-		'arrow-body-style': ['error', 'as-needed'],
+		'arrow-body-style': ['warn'],
 
 		// require parens in arrow function arguments
 		'arrow-parens': 'off',
@@ -40,7 +40,7 @@ module.exports = {
 		],
 
 		// disallow modifying variables that are declared using const
-		'no-const-assign': 'as-needed',
+		'no-const-assign': 1,
 
 		// disallow duplicate class members
 		// http://eslint.org/docs/rules/no-dupe-class-members
