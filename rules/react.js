@@ -29,11 +29,11 @@ module.exports = {
 
 		// Forbid certain propTypes (any, array, object)
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
-		'react/forbid-prop-types': ['error', { forbid: ['any'] }],
+		'react/forbid-prop-types': ['warn', { forbid: ['any'] }],
 
 		// Enforce boolean attributes notation in JSX
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-		'react/jsx-boolean-value': ['error', 'never'],
+		'react/jsx-boolean-value': ['warn', 'never'],
 
 		// Validate closing bracket location in JSX
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
@@ -55,7 +55,7 @@ module.exports = {
 
 		// Validate props indentation in JSX
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-		'react/jsx-indent-props': ['error', 2],
+		'react/jsx-indent-props': ['warn', 2],
 
 		// Validate JSX has key prop when in array or iterator
 		// https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
