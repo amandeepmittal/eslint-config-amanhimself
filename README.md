@@ -25,7 +25,7 @@ yarn add --dev eslint-config-amanhimself eslint
 
 ## Usage
 
-Since ESLint checks both `package.json` and `.eslintrc.*` files for its configuration, you can add it to your own configuration either in `package.json`
+Since ESLint checks both `package.json` files for its configuration, you can add it to your own configuration either in `package.json`
 
 ```json
 {
@@ -35,7 +35,15 @@ Since ESLint checks both `package.json` and `.eslintrc.*` files for its configur
 }
 ```
 
-**Or** in .eslintrc.js
+Or in `.eslintrc` _(preferred way)_
+
+```json
+{
+	"extends": "eslint-config-amanhimself"
+}
+```
+
+**Or** in `.eslintrc.js`
 
 ```js
 module.exports = {
