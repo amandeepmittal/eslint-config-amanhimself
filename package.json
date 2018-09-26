@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-amanhimself",
-	"version": "1.1.6",
+	"version": "1.1.7",
 	"description": "ESLint config for React Native and Expo apps.",
 	"main": "index.js",
 	"scripts": {
@@ -11,11 +11,10 @@
 	},
 	"keywords": [
 		"eslint",
-		"eslint-config",
+		"react",
 		"eslint-react",
 		"eslint-universe",
-		"react-native eslint",
-		"react eslint"
+		"react-native"
 	],
 	"author": "Aman Mittal <amandeepmittal@live.com> (www.amanhimself.me)",
 	"license": "MIT",
@@ -23,10 +22,10 @@
 		"eslint": ">=5.0.0"
 	},
 	"dependencies": {
-		"babel-eslint": "^8.2.6",
+		"babel-eslint": "^10.0.0",
 		"eslint": "^5.6.0",
 		"eslint-plugin-class-property": "^1.1.0",
-		"eslint-plugin-import": "^2.13.0",
+		"eslint-plugin-import": "^2.14.0",
 		"eslint-plugin-jsx-a11y": "^6.1.1",
 		"eslint-plugin-react": "^7.11.1"
 	},
