@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-amanhimself",
-	"version": "1.1.8",
+	"version": "1.1.9",
 	"description": "ESLint config for React Native and Expo apps.",
 	"main": "index.js",
 	"scripts": {
@@ -26,7 +26,7 @@
 		"eslint": "^5.6.1",
 		"eslint-plugin-class-property": "^1.1.0",
 		"eslint-plugin-import": "^2.14.0",
-		"eslint-plugin-jsx-a11y": "^6.1.1",
+		"eslint-plugin-jsx-a11y": "^6.1.2",
 		"eslint-plugin-react": "^7.11.1"
 	},
 	"repository": {
